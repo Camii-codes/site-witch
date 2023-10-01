@@ -15,7 +15,8 @@ FAZER ROOT DAS CORES? */
 }
 
 body {
-    background-color: #148C8C;
+    background-image: linear-gradient(to bottom, #B189D9, #148C8C, #82D9C9);
+        color: #333333;
     color: #333333;
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
