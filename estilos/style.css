@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* Versão mobile first ATUALIZAR
+FAZER ROOT DAS CORES? */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Magical Demo';
+    src: url(../fonts/MagicalDemo.otf) format(opentype);
+}
+
+body {
+    background-color: #148C8C;
+    color: #333333;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .logo {
+    width: 330px;
+    display: block;
+    margin: auto;
+    padding: 30px 20px 5px 20px;
+}
+
+header .logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main  {
+    padding: 25px;
+}
+
+main .listagem-witch {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+main .cartao-witch {
+    background-color: #4aa7a76b;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-witch:hover {
+    background-image: linear-gradient(to bottom, #82D9C9, #148C8C, #B189D9);
+    cursor: pointer;
+    color: #6b162ac5;
+}
+
+.tipos {
+    color: #333333;
+
+}
+
+img.png{ 
+    width: 175px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > a {
+    font-family: 'Magical Demo', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #333333;
+}
+
+nav > a:hover {
+    color: #8b1d37;
+}
+
+ul {
+    list-style: none;
+} 
+
+p {
+    font-size: 14px;
+    color: #333333;;
+}
+
+.informacoes {
+    font-family: 'Magical Demo', sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
