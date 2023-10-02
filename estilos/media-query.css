@@ -3,14 +3,6 @@
 /* Versão para outras mídias */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
-        background-image: linear-gradient(to bottom, #B189D9, #148C8C, #82D9C9);
-        color: #333333;
-        background-attachment: fixed;
-        font-family: 'Times New Roman', Times, serif;
-        max-width: 1280px;
-        margin: 0 auto;
-    }
 
     header .logo {
         width: 330px;
@@ -33,14 +25,6 @@
 }
 
 @media screen and (min-width: 992px) {
-    body {
-        background-image: linear-gradient(to bottom, #B189D9, #148C8C, #82D9C9);
-        color: #333333;
-        background-attachment: fixed;
-        font-family: 'Times New Roman', Times, serif;
-        max-width: 1280px;
-        margin: 0 auto;
-    }
 
     header .logo {
         width: 330px;

@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 header .logo {
@@ -51,7 +51,7 @@ main .listagem-witch {
 main .cartao-witch {
     background-color: #4aa7a76b;
     width: 175px;
-    height: 480px;
+    height: 490px;
     padding: 15px;
     display: flex;
     flex-direction: column;
