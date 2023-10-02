@@ -21,6 +21,15 @@
     nav {
         text-align: right;
     }
+    
+    main .cartao-witch {
+        width: 200px;
+        height: 500px;
+    }
+
+    img.png{ 
+        width: 175px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -41,5 +50,14 @@
 
     nav {
         text-align: right;
+    }
+    
+    main .cartao-witch {
+        width: 200px;
+        height: 500px;
+    }
+
+    img.png{ 
+        width: 175px;
     }
 }
