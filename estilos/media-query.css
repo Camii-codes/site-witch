@@ -22,6 +22,28 @@
     img.png{ 
         width: 175px;
     }
+
+    main.pag {
+        width: 400px;
+     }
+     
+     section.sobre {
+         padding: 10px
+     }
+
+     div.imagens {
+        position: relative;
+     }
+
+     div.imagens > img {
+        position: absolute;
+        top: 90%;
+        left: 100%;
+
+        transform: translate(50%, -48%);
+    }
+
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -43,5 +65,25 @@
 
     img.png{ 
         width: 175px;
+    }
+
+    main.pag {
+        width: 900px;
+     }
+     
+     section.sobre {
+         padding: 10px
+     }
+
+     div.imagens {
+        position: relative;
+     }
+
+     div.imagens > img {
+        position: absolute;
+        top: 90%;
+        left: 100%;
+
+        transform: translate(50%, -25%);
     }
 }
