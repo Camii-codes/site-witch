@@ -47,9 +47,8 @@ section.sobre {
     padding: 10px
 }
 
-section > img {
-    width: 200px;
-    height: 500px;
+section > div.imagem > img {
+    width: 148px;
     display: block;
     margin: auto;
 }
