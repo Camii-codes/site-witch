@@ -94,7 +94,7 @@ img.png{
 }
 
 main.pag {
-   width: 90vw; 
+   width: 100%; 
    text-align: justify;
 }
 
@@ -118,6 +118,7 @@ section > div.imagem > img {
 
 p {
     font-size: 20px;
+    text-indent: 50px;
 }
 
 p.descricao {
@@ -149,10 +150,26 @@ div#formulario > h1 {
     font-family: 'Magical Demo';
     font-size: 50px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 div#formulario > p {
     text-align: center;
+    margin-bottom: 15px;
+}
+
+form > div.campo {
+    background-color: #cdacee;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+div.campo > label {
+    display: none;
 }
 
 form > input[type=submit] {
@@ -164,6 +181,7 @@ form > input[type=submit] {
     color: white;
     border: none;
     border-radius: 5px;
+    margin: 15px;
 }
 
 form > input[type=submit]:hover {
