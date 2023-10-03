@@ -31,8 +31,6 @@
         text-align: left;
      }
 
-
-     
      section.sobre {
         width: 500px; 
         padding: 10px
@@ -52,6 +50,12 @@
         left: 100%;
 
         transform: translate(48%, -60%);
+    }
+
+    div#formulario {
+        width: 950px;
+        display: block;
+        margin: auto
     }
 
 }
