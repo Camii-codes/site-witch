@@ -134,6 +134,42 @@ ul > a {
     color: #333333;
 }
 
+div#imagem > img {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+div#formulario {
+    width: 90vw;
+    text-align: center;
+}
+
+div#formulario > h1 {
+    font-family: 'Magical Demo';
+    font-size: 50px;
+    text-align: center;
+}
+
+div#formulario > p {
+    text-align: center;
+}
+
+form > input[type=submit] {
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    height: 30px;
+    background-color: #148C8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #82D9C9;
+    cursor: pointer;
+}
 
 
 
