@@ -55,7 +55,7 @@ main .listagem-witch {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-    padding: 10px;
+    padding: 50px;
     margin: 10px;
 }
 
@@ -74,7 +74,7 @@ main .cartao-witch {
 }
 
 main .cartao-witch:hover {
-    background-image: linear-gradient(to bottom, #82D9C9, #148C8C, #B189D9);
+    background-image: linear-gradient(to bottom, #82D9C9, #148C8C, #cdacee);
     cursor: pointer;
     color: #6b162ac5;
 }
@@ -91,10 +91,6 @@ main .cartao-witch:hover {
 
 img.png{ 
     width: 150px;
-}
-
-main  {
-    padding: 25px;
 }
 
 main.pag {
@@ -132,6 +128,13 @@ ul {
 ul > a {
     text-decoration: none;
     color: #333333;
+}
+
+main.login > section > img {
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
 }
 
 
