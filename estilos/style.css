@@ -95,6 +95,15 @@ img.png{
 
 main.pag {
    width: 90vw; 
+   text-align: justify;
+}
+
+h1.nome {
+    font-family: 'Magical Demo', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 25px;
 }
 
 section.sobre {
@@ -105,11 +114,6 @@ section > div.imagem > img {
     width: 148px;
     display: block;
     margin: auto;
-}
-
-h1.nome {
-    font-family: 'Magical Demo', sans-serif;
-    font-size: 50px;
 }
 
 p {
@@ -128,13 +132,6 @@ ul {
 ul > a {
     text-decoration: none;
     color: #333333;
-}
-
-main.login > section > img {
-    width: 350px;
-    display: block;
-    margin: auto;
-    padding-top: 50px;
 }
 
 

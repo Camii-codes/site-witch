@@ -24,7 +24,14 @@
 
     main.pag {
         width: 400px;
+        text-align: left;
      }
+
+     h1.nome {
+        text-align: left;
+     }
+
+
      
      section.sobre {
         width: 500px; 
@@ -44,8 +51,10 @@
         top: 90%;
         left: 100%;
 
-        transform: translate(100%, -48%);
-    }  
+        transform: translate(48%, -60%);
+    }
+    
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -70,6 +79,11 @@
 
     main.pag {
         width: 900px;
+        text-align: left;
+     }
+
+     h1.nome {
+        text-align: left;
      }
      
      section.sobre {
@@ -89,6 +103,6 @@
         top: 90%;
         left: 100%;
 
-        transform: translate(50%, -32%);
+        transform: translate(40%, -32%);
     }
 }
