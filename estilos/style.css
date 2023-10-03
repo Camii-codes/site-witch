@@ -75,7 +75,7 @@ main .listagem-witch {
 main .cartao-witch {
     background-color: #4aa7a76b;
     width: 175px;
-    height: 490px;
+    height: 500px;
     padding: 15px;
     display: flex;
     flex-direction: column;
