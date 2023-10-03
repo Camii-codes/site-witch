@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-/* Versão mobile first ATUALIZAR
-FAZER ROOT DAS CORES? */
+/* Versão mobile first */
 
 * {
     margin: 0;
@@ -35,31 +34,20 @@ header .logo:hover {
     cursor: pointer;
 }
 
-main  {
-    padding: 25px;
+nav {
+    text-align: center;
 }
 
-main.pag {
-   width: 90vw; 
-}
-
-section.sobre {
-    padding: 10px
-}
-
-section > div.imagem > img {
-    width: 148px;
-    display: block;
-    margin: auto;
-}
-
-h1.nome {
+nav > a {
     font-family: 'Magical Demo', sans-serif;
-    font-size: 50px;
+    font-size: 2em;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #333333;
 }
 
-p {
-    font-size: 20px;
+nav > a:hover {
+    color: #8b1d37;
 }
 
 main .listagem-witch {
@@ -95,24 +83,46 @@ main .cartao-witch:hover {
     color: #333333;
 }
 
+.informacoes {
+    font-family: 'Magical Demo', sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
 img.png{ 
     width: 150px;
 }
 
-nav {
-    text-align: center;
+main  {
+    padding: 25px;
 }
 
-nav > a {
+main.pag {
+   width: 90vw; 
+}
+
+section.sobre {
+    padding: 10px
+}
+
+section > div.imagem > img {
+    width: 148px;
+    display: block;
+    margin: auto;
+}
+
+h1.nome {
     font-family: 'Magical Demo', sans-serif;
-    font-size: 2em;
-    text-decoration: none;
-    margin-right: 30px;
-    color: #333333;
+    font-size: 50px;
 }
 
-nav > a:hover {
-    color: #8b1d37;
+p {
+    font-size: 20px;
+}
+
+p.descricao {
+    font-size: 14px;
+    color: #333333;
 }
 
 ul {
@@ -123,16 +133,8 @@ ul > a {
     text-decoration: none;
     color: #333333;
 }
-p.descricao {
-    font-size: 14px;
-    color: #333333;
-}
 
-.informacoes {
-    font-family: 'Magical Demo', sans-serif;
-    font-size: 2.5em;
-    font-weight: bolder;
-}
+
 
 
 
