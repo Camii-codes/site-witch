@@ -18,8 +18,7 @@ html, body {
     color: #333333;
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
-    width: 100vw;
-    height: 100vh;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -102,7 +101,7 @@ main.pag {
 main.log {
     position: relative;
     height: 900px;
-    width: 100vw;
+    width: 90vw;
 }
 
 section#login { 
@@ -118,7 +117,8 @@ section#login {
 }
 
 section#login > div#imagem {
-    background-image: url(../images/all.png);
+    display: block;
+    background: url(../images/all.png) no-repeat;
     width: 200px;
     height: 200px;
     background-size: cover;
@@ -164,6 +164,11 @@ ul > a {
 
 div.imagem > img{
     width: 900px;
+}
+
+div#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
 
 div#imagem > img {
