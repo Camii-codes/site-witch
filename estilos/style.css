@@ -99,6 +99,32 @@ main.pag {
    text-align: justify;
 }
 
+main.log {
+    position: relative;
+    height: 900px;
+    width: 100vw;
+}
+
+section#login { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: -170px;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+section#login > div#imagem {
+    background-image: url(../images/all.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+}
+
 h1.nome {
     font-family: 'Magical Demo', sans-serif;
     font-size: 50px;
@@ -136,6 +162,10 @@ ul > a {
     color: #333333;
 }
 
+div.imagem > img{
+    width: 900px;
+}
+
 div#imagem > img {
     width: 400px;
     display: block;
@@ -143,7 +173,7 @@ div#imagem > img {
 }
 
 div#formulario {
-    width: 90vw;
+    width: 90%;
     text-align: center;
 }
 
