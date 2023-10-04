@@ -195,10 +195,10 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #cdacee;
+    background-color: #169b9b;
     width: 250px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -208,12 +208,31 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i {
+    font-size: 1.5em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #cdacee;
+    font-size: 1em;
+    width: calc(97% - 44px);
+    height: 90%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #ceb8e4;
+
+    transform: translateY(-8.5px);
+}
+
 form > input[type=submit] {
     text-align: center;
     font-size: 1em;
     width: 50%;
     height: 30px;
-    background-color: #148C8C;
+    background-color: #169b9b;
     color: white;
     border: none;
     border-radius: 5px;
