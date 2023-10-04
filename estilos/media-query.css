@@ -108,4 +108,14 @@
 
         transform: translate(40%, -32%);
     }
+
+    section#login {
+        width: 100px;
+        display: inline-block;
+        margin: auto;
+    }
+    
+    div#imagem > img {
+        width: 500px;
+    }
 }

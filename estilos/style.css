@@ -13,12 +13,13 @@
     src: url(../fonts/MagicalDemo.otf) format(opentype);
 }
 
-body {
+html, body {
     background-image: linear-gradient(to bottom, #B189D9, #148C8C, #82D9C9);
     color: #333333;
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
-    max-width: 1280px;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
 }
 
